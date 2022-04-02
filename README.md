@@ -39,7 +39,26 @@ elif math == "3":
    result = (float(num1)*float(num2))
 elif math == "4":
     result = (float(num1)/float(num2))
-r=str(result)
-print("your result is: "+r)
-#else:
-#print("Inviad entry")
+else:
+    print("invalid entry")
+print("your result is: "+ str(result))
+
+
+## DAY 11 NUMBERS
+print(3+4)
+print(3/4)
+print(3*(4+5))
+print(1 % 4)
+num_hello = -5
+print(num_hello)
+print(str(num_hello))
+print(str(num_hello)+" is my favorate number")
+print(abs(num_hello))
+print(pow(3,2))
+print(max(2,3,6,8,10))
+print(min(2,3,6,8,10))
+print(round(2.3))
+from math import *
+print(floor(3.7))
+print(ceil(3.9))
+print(sqrt(36))
