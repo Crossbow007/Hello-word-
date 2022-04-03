@@ -62,3 +62,66 @@ from math import *
 print(floor(3.7))
 print(ceil(3.9))
 print(sqrt(36))
+
+# Day 12 List fuction
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi"]
+print(lucky_number)
+print(friends)
+ #extend
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi"]
+friends.extend(lucky_number)
+print(friends)
+ #append
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi"]
+friends.append("Shara")
+print(friends)
+ #insert
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi"]
+friends.insert(1,"Shara")
+print(friends)
+ #remove
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara"]
+friends.remove("Shara")
+print(friends)
+ #clear
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara"]
+friends.clear()
+print(friends)
+#pop
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara"]
+friends.pop(-1)
+print(friends)
+#index
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara"]
+print(friends.index("Allen"))
+#count
+lucky_number = [3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen"]
+print(friends.count("Allen"))
+#sort
+lucky_number = [18,3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen"]
+friends.sort()
+lucky_number.sort()
+print(friends)
+print(lucky_number)
+#reversed
+lucky_number = [18,3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen"]
+friends.reverse()
+lucky_number.reverse()
+print(friends)
+print(lucky_number)
+#copy
+lucky_number = [18,3,6,7,9,15]
+friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen","copy"]
+friends2=friends.copy()
+print(friends)
