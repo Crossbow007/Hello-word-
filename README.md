@@ -126,3 +126,19 @@ friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen","copy
 friends2=friends.copy()
 print(friends)
 learn from https://www.youtube.com/watch?v=rfscVS0vtbw&t=4739s
+#Questions
+# QUESTION 1. Write a function called hello that prints Hello World!
+# QUESTION 2. Write a function called addition that accepts two parameters num1, and, num2. Print the addition of the two numbers. 
+# QUESTION 3. Write a function called MinutesToSeconds that converts minutes into seconds. The parameter is an integer called minutes.  Print the seconds.
+# 4. In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
+# chickens = 2 legs
+# cows = 4 legs
+# pigs = 4 legs
+# The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that prints the total number of legs of all the animals.
+
+# Examples:
+# animals(2, 3, 5) ➞ 36
+# animals(1, 2, 3) ➞ 22
+# animals(5, 2, 8) ➞ 50
+
+#Hint: there are 3 parameters —> chickens, cows, pigs.
