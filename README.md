@@ -125,3 +125,4 @@ lucky_number = [18,3,6,7,9,15]
 friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen","copy"]
 friends2=friends.copy()
 print(friends)
+learn from https://www.youtube.com/watch?v=rfscVS0vtbw&t=4739s
