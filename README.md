@@ -142,3 +142,29 @@ learn from https://www.youtube.com/watch?v=rfscVS0vtbw&t=4739s
 # animals(5, 2, 8) ➞ 50
 
 #Hint: there are 3 parameters —> chickens, cows, pigs.
+
+# Day 13 DEF function
+#Question 1
+def Hello(hi):
+    print( hi )
+Hello("Hello, word!")
+
+#Question 2
+def addtion(num1,num2):
+   print(float(num1)+float(num2))
+addtion(3,5)
+
+#Question 3
+def MinutesToSeconds(minutes):
+   seconds = float(minutes)*60
+   print(float(seconds))
+MinutesToSeconds(3)
+
+#Question 4
+def animals(a,b,c):
+    total_legs = (int(a)*2 +int(b)*4+int(c)*4)
+    print("Hi, Allen, this farm hast total "+ str(total_legs)+" legs.")
+chicken = input("how many chickens does farm have: ")
+pig = input("how many pig does farm have: ")
+cow = input("how many cow does farm have: ")
+animals(int(chicken),int(pig),int(cow))
