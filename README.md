@@ -79,7 +79,7 @@ print(floor(3.7))
 print(ceil(3.9))
 print(sqrt(36))
 
-# Day 12 List fuction
+# Day 12 List fuction and 
 lucky_number = [3,6,7,9,15]
 friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi"]
 print(lucky_number)
@@ -142,7 +142,9 @@ friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen","copy
 friends2=friends.copy()
 print(friends)
 learn from https://www.youtube.com/watch?v=rfscVS0vtbw&t=4739s
-
+#TUPLES
+co = (3,6,34,32,21)
+print(co[1])# 1 is a index unmber
 
 # Day 13 DEF function
 Questions
@@ -194,3 +196,15 @@ def cube(num):
 
 print(float(cube(3.2)))
 
+# DAY 14 IF STATEMENT
+is_male = False
+is_tall = False
+
+if is_male and is_tall:
+ print("you are a tall male ")
+elif is_male and not(is_tall):
+ print ("you are a sort male")
+elif not(is_male) and is_tall:
+ print("you are not male, but tall")
+else:
+  print(" you are either male and tall")
