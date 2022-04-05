@@ -187,3 +187,10 @@ chicken = input("how many chickens does farm have: ")
 pig = input("how many pig does farm have: ")
 cow = input("how many cow does farm have: ")
 animals(int(chicken),int(pig),int(cow))
+
+#def math
+def cube(num):
+  return  num * num * num
+
+print(float(cube(3.2)))
+
