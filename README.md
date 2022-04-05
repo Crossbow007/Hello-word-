@@ -1,11 +1,16 @@
 # 100 DAYS CODE
 # Day 1 print
 print('This is my first code')
-# Day 2 print
+# Day 2 print input
 name = input("what is your name?\n")
 print("Hi " + name)
-# Day 3 print
-
+# Day 3 Tip Calculator
+print("welcome to tip calculator!")
+total_bill = input("what was the total bill? $: ")
+tip_percentage = input("how much the tip would you like to give? 10, 12, or 15? ")
+total_people = input("how many people to split the bill? ")
+result = ((float(total_bill)+float(total_bill)*int(tip_percentage)/100)/int(total_people))
+print("Each person should pay:  "+ str(round(result,3)))
 # Day 4 print
 # Day 5 print
 # Day 6 print
