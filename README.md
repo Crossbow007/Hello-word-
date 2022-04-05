@@ -1,8 +1,11 @@
-# 100 days code-
+# 100 DAYS CODE
 # Day 1 print
 print('This is my first code')
 # Day 2 print
+name = input("what is your name?\n")
+print("Hi " + name)
 # Day 3 print
+
 # Day 4 print
 # Day 5 print
 # Day 6 print
@@ -10,24 +13,25 @@ print('This is my first code')
 # Day 8 print
 # DAY 9 LEARN STRINGS
 print("Kevin Gao")
-# switch line, add a backslash mark"\"
+  switch line, add a backslash mark"\"
 print("Kevin\n Gao")
-# set string as a viable value
+  set string as a viable value
 phrase = Kevin
 print(phrase+ "Gao is cool")
 print(phrase.lower())
 print(phrase.isupper())
 print(phrase.upper().isupper())
-# count letter length
+   count letter length
 phrase = Kevin Gao
 print(len.phrase)
-# get the certain letter in strings by count number, start from 0
+  get the certain letter in strings by count number, start from 0
 phrase = Kevin Gao
 print(phrase[0])
 print(phrase.index(0))
-# replace
+   replace
 phrase = Kevin Gao
 print(phrase.replace("Kevin", "Allen"))
+
 # DAY 10 CALCULATOR
 print("CALCULATOR")
 print("1. ADD")
@@ -133,24 +137,27 @@ friends = ["Kevin","Allen","Bobo","Lucy","Ergouzi","Shara","Allen","allen","copy
 friends2=friends.copy()
 print(friends)
 learn from https://www.youtube.com/watch?v=rfscVS0vtbw&t=4739s
-#Questions
-# QUESTION 1. Write a function called hello that prints Hello World!
-# QUESTION 2. Write a function called addition that accepts two parameters num1, and, num2. Print the addition of the two numbers. 
-# QUESTION 3. Write a function called MinutesToSeconds that converts minutes into seconds. The parameter is an integer called minutes.  Print the seconds.
-# 4. In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
-# chickens = 2 legs
-# cows = 4 legs
-# pigs = 4 legs
-# The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that prints the total number of legs of all the animals.
 
-# Examples:
-# animals(2, 3, 5) ➞ 36
-# animals(1, 2, 3) ➞ 22
-# animals(5, 2, 8) ➞ 50
-
-#Hint: there are 3 parameters —> chickens, cows, pigs.
 
 # Day 13 DEF function
+Questions
+ QUESTION 1. Write a function called hello that prints Hello World!
+QUESTION 2. Write a function called addition that accepts two parameters num1, and, num2. Print the addition of the two numbers. 
+QUESTION 3. Write a function called MinutesToSeconds that converts minutes into seconds. The parameter is an integer called minutes.  Print the seconds.
+4. In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
+ chickens = 2 legs
+ cows = 4 legs
+ pigs = 4 legs
+The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that prints the total number of legs of all the animals.
+
+ Examples:
+ animals(2, 3, 5) ➞ 36
+animals(1, 2, 3) ➞ 22
+ animals(5, 2, 8) ➞ 50
+
+Hint: there are 3 parameters —> chickens, cows, pigs.
+
+
 #Question 1
 def Hello(hi):
     print( hi )
