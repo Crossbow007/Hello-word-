@@ -1,6 +1,13 @@
-# Hello-word-
+# 100 days code-
+# Day 1 print
 print('This is my first code')
-
+# Day 2 print
+# Day 3 print
+# Day 4 print
+# Day 5 print
+# Day 6 print
+# Day 7 print
+# Day 8 print
 # DAY 9 LEARN STRINGS
 print("Kevin Gao")
 # switch line, add a backslash mark"\"
