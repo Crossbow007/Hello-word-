@@ -208,3 +208,18 @@ elif not(is_male) and is_tall:
  print("you are not male, but tall")
 else:
   print(" you are either male and tall")
+  
+# Day 15 Another calculator
+num1 = float(input("Enter the first number: "))
+op = input("Enter the operator : ")
+num2 = float(input("Enter the second number: "))
+if op == "+" :
+  print (num1+num2)
+elif op == "-":
+  print (num1-num2)
+elif op == "*":
+  print (num1*num2)
+elif op == "/":
+  print (num1/num2)
+else:
+  print("INVALID NUMBER")
