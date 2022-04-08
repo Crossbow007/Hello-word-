@@ -223,3 +223,10 @@ elif op == "/":
   print (num1/num2)
 else:
   print("INVALID NUMBER")
+
+#Day 16 WHILE LOOP
+i = 1
+while i <=10:
+  print(i)
+  i = i + 1
+print("done with loop")
