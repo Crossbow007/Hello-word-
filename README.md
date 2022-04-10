@@ -248,19 +248,18 @@ if out_of_guess:
 else:
   print("you WIN!")
   
-#17 GUESS NAME
-secret_name = "gao pengbo"
-guess = ""
-guess_count=0
-guess_limit=3
-out_of_guess=False
-while guess != secret_name and not(out_of_guess):
-  if guess_count < guess_limit:
-      guess = input("Entre a guess: ")
-      guess_count = guess_count + 1
-  else:
-    out_of_guess = True
-if out_of_guess:
-  print("you lose the game!")
-else:
-  print("you WIN!")
+# DAY 18 QUESTION 1. Create a function called makesTen that has 2 parameters, a and b. Print True if one of them is 10 or if their sum is 10.
+  Examples:
+  makesTen(9, 10) ➞ True
+  makesTen(9, 9) ➞ False
+  makesTen(1, 9) ➞ True
+a=input("please entry the first number: ")
+b=input("please entry the second number: ")
+def makesten(a,b):
+  if a + b < 10:
+    check = False
+    print(check)
+  elif a == 10 or b == 10 or a + b == 10:
+    check = True
+    print(check)
+print(makesten(float(a),float(b)))
