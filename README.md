@@ -263,3 +263,22 @@ def makesten(a,b):
     check = True
     print(check)
 print(makesten(float(a),float(b)))
+# DAY 19 DEF FUNCTION
+. You are counting points for a basketball game, 
+ given the amount of 2-pointers scored and 3-pointers scored, 
+#find the final points for the team and return that value.
+EX: 
+ points(1, 1) ➞ 5
+ points(7, 5) ➞ 29
+points(38, 8) ➞ 100
+
+two_pointers = input("input 2 pointers: ")
+three_pointers = input("input 3 pointers: ")
+def final_points(two_pointers,three_pointers):
+    result = (two_pointers)*2 + (three_pointers)*3
+
+    print(result)
+
+final_points(int(two_pointers),int(three_pointers))
+#final_points(7,5)
+#final_points(38,8)
