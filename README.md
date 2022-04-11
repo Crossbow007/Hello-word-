@@ -342,3 +342,22 @@ a=input("Please input your name: ")
 def greeting(a):
   print("Hello "+ a+" !")
 greeting(a)
+
+# DAY 20 FOR LOOPS
+# For loops
+for count in range(3):
+    print(count)
+
+for name in " Kevin Gao  ":
+    print(name)  
+
+friends = ["kevin","allen","popo",""]
+for index in range(len(friends)):
+    print(friends[index])
+
+friends = ["kevin","allen","popo   "]
+for index in range(5):
+   if index==0:
+     print("this is the first name!")
+   else:
+     print("None")
