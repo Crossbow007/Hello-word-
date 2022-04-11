@@ -295,3 +295,39 @@ if length == 0:
   print("True")
 else:
   print("Flase")
+  
+  # QUESTION 5. Write a function called, watchMovie, that checks whether a person can watch an 13+ rated movie. One of the following two conditions is required for admittance:
+
+#The person is at least 13 years old.
+#They have parental supervision.
+#The function accepts two parameters, age and isSupervised. Print either True or False
+a = input("Please input your age: ")
+b = input("Do you have panrental supervisor? Y or N: ")
+def watchMovie(a,b):
+   if int(a) >= 13 and b =="Y" :
+     print("True")
+   else:
+     print("Flase")
+     
+watchMovie(a,b)
+
+# QUESTION 6. Given a string, print True if its length is even or False if the length is odd.
+# Examples:
+# oddOrEven("apples") ➞ true
+# The word "apples" has 6 characters.
+# 6 is an even number, so the program outputs true.
+
+# oddOrEven("pears") ➞ false
+# "pears" has 5 letters, and 5 is odd.
+# Therefore the program outputs false.
+
+# oddOrEven("cherry") ➞ true
+import math
+a = input ("please input your letter: ")
+b=len(a)
+
+if b%2 == 0:
+  #print("True")
+  print("This letter has " + str(b)+ " letters, it is a Even number!")
+elif b%2 == 1:
+   print("This letter has " + str(b)+ " letters, it is a Odd number!")
