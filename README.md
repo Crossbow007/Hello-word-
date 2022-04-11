@@ -383,7 +383,7 @@ for row in number_grid:
 for row1 in number_grid:
     for col in row1:
      print(col)
-# 23 Translator
+# DAY 23 Translator
 def translator(phrase):
     translator = ""
     for letter in phrase:
