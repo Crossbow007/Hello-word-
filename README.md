@@ -402,3 +402,14 @@ try:
   print(number)
 except:
  print("invalid entry")
+
+# Day 25 read file
+read_file = open("list.txt","r")
+print(read_file.readline())
+read_file.close()
+
+read_file = open("list.txt","r")
+for read in read_file.readlines():
+  print(read) 
+   
+#read_file.close()
