@@ -395,3 +395,10 @@ def translator(phrase):
 
 
 print(translator(input("input your phrase: ")))
+
+# DAY 24 Try and expect
+try:
+  number=int(input("please input your numbers: "))
+  print(number)
+except:
+ print("invalid entry")
