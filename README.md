@@ -383,3 +383,15 @@ for row in number_grid:
 for row1 in number_grid:
     for col in row1:
      print(col)
+# 23 Translator
+def translator(phrase):
+    translator = ""
+    for letter in phrase:
+        if letter in "AOEIUaoeiu":
+            translator = translator + "g"
+        else:
+            translator = translator + letter
+    return translator
+
+
+print(translator(input("input your phrase: ")))
