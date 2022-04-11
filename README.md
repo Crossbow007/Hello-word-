@@ -282,3 +282,16 @@ def final_points(two_pointers,three_pointers):
 final_points(int(two_pointers),int(three_pointers))
 #final_points(7,5)
 #final_points(38,8)
+
+# QUESTION 4. Create a function that prints True if a string is empty and False otherwise.
+
+#Examples:
+#isEmpty("") ➞ true
+#isEmpty(" ") ➞ false
+#isEmpty("a") ➞ false
+isEmpty= input()
+length = len(isEmpty)
+if length == 0:
+  print("True")
+else:
+  print("Flase")
