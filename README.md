@@ -331,3 +331,14 @@ if b%2 == 0:
   print("This letter has " + str(b)+ " letters, it is a Even number!")
 elif b%2 == 1:
    print("This letter has " + str(b)+ " letters, it is a Odd number!")
+   
+   # QUESTION 7. Create a function that takes a name and prints a greeting in the form of a string.
+
+#Examples:
+# helloName("Gerald") ➞ "Hello Gerald!"
+# helloName("Tiffany") ➞ "Hello Tiffany!"
+# helloName("Ed") ➞ "Hello Ed!"
+a=input("Please input your name: ")
+def greeting(a):
+  print("Hello "+ a+" !")
+greeting(a)
