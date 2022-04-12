@@ -403,13 +403,27 @@ try:
 except:
  print("invalid entry")
 
-# Day 25 read file
-read_file = open("list.txt","r")
+# Day 25 read  add write and creat a new file
+read_file = open("list.txt", "r")
 print(read_file.readline())
 read_file.close()
 
-read_file = open("list.txt","r")
+read_file = open("list.txt", "r")
 for read in read_file.readlines():
-  print(read) 
-   
-#read_file.close()
+    print(read)
+
+read_file.close()
+#"a" is add some text in the file
+read_file = open("list.txt", "a")
+read_file.write("\nHobby- Human resources")
+#"\n change new line"
+read_file.close()
+
+# "w" is over write text in the file and creat a new file
+read_file = open("list.txt", "w")
+read_file.write("Hobby- Human resources")
+read_file.close()
+
+read_file = open("list1.txt", "w")
+read_file.write("Hobby- Human resources")
+read_file.close()
